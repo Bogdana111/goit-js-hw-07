@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+.list {
+  width: 392px;
+  height: 264px;
+}
+.item {
+  padding: 16px;
+  background-color: #f6f6fe;
+  border: 1px solid #f6f6fe;
+  border-radius: 8px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 24px;
+}
+.title-categ {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #2e2f42;
+  letter-spacing: 1.7px;
+}
+
+.list-categ {
+  padding: 0px;
+}
+
+.item-list-categ {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2e2f42;
+  letter-spacing: 1.7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.item-list-categ:not(:last-child) {
+  margin-bottom: 8px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  justify-content: center;
+  align-items: center;
+  width: 1300px;
+}
+
+.name-input {
+  margin-bottom: 16px;
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2e2f42;
+  letter-spacing: 1.7px;
+}
+
+.name-input::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2e2f42;
+  letter-spacing: 1.7px;
+}
+
+.name-output-span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #2e2f42;
+  letter-spacing: 1.7px;
+  margin: 0;
+}
+
+.login-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 410px;
+  flex-direction: column;
+  align-content: flex-start;
+}
+.label {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 420;
+  font-size: 16px;
+  color: #2e2f42;
+  letter-spacing: 1.7px;
+}
+.input-email {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  margin-top: 8px;
+}
+.button {
+  margin-top: 8px;
+  padding: 5px 5px;
+
+  width: 86px;
+  height: 40px;
+
+  color: #ffffff;
+  background-color: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 420;
+  font-size: 16px;
+  letter-spacing: 1.7px;
+  border: 1px solid #4e75ff;
+  border-radius: 10px;
+}
+.button:hover {
+  background-color: #6c8cff;
+}
+.change-color {
+  color: #ffffff;
+  background-color: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 420;
+  font-size: 16px;
+  letter-spacing: 1.7px;
+  border: 1px solid #4e75ff;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+}
+.change-color:hover {
+  background-color: #6c8cff;
+}
+.text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 420;
+  font-size: 16px;
+  letter-spacing: 1.7px;
+  color: #2e2f42;
+}
+.create-btn {
+  color: #ffffff;
+  background-color: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 420;
+  font-size: 16px;
+  letter-spacing: 1.7px;
+  border: 1px solid #4e75ff;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  margin-right: 16px;
+}
+.create-btn:hover {
+  background-color: #6c8cff;
+}
+.destroy-btn {
+  color: #ffffff;
+  background-color: #ff4e4e;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 420;
+  font-size: 16px;
+  letter-spacing: 1.7px;
+  border: 1px solid #ff4e4e;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+}
+.destroy-btn:hover {
+  background-color: #ff7070;
+}
+
+.input-box {
+  margin-right: 16px;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2e2f42;
+  letter-spacing: 1.7px;
+  text-align: center;
+}
+
+.container {
+  padding: 32px;
+  width: 500px;
+  height: 105px;
+}
